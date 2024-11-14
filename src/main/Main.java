@@ -1,4 +1,4 @@
-package Main;
+package main;
 
 import javax.swing.*;
 
@@ -18,6 +18,7 @@ public class Main {
         window.setLocationRelativeTo(null); // Makes the game in the center of the screen
         window.setVisible(true); // Makes the screen visible :)
 
+        gamePanel.setupGame();
         gamePanel.startGameThread();
 
 
